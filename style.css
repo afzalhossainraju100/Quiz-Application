@@ -110,11 +110,11 @@ ul#choices-list li:active {
 
 ul#choices-list button {
   width: 100%;
-  padding: 16px 0;
+  padding: 10px;
   border: none;
   border-radius: 14px;
   background: rgba(255, 255, 255, 0.82);
-  color: #232526;
+  color: #0a9ae2;
   font-size: 1.13rem;
   font-weight: 600;
   cursor: pointer;
@@ -129,9 +129,9 @@ ul#choices-list button {
 
 ul#choices-list button:hover,
 ul#choices-list button.selected {
-  background: linear-gradient(90deg, #ffcc70 0%, #c850c0 60%, #4158d0 100%);
+  background: #4158d0;
   color: #fff;
-  box-shadow: 0 4px 24px rgba(200, 80, 192, 0.18);
+  box-shadow: 0 4px 24px rgba(65, 88, 208, 0.18);
   transform: translateY(-2px) scale(1.04);
   border-bottom: 2.5px solid #c850c0;
 }
